@@ -1,6 +1,6 @@
 class GrGsm < Formula
-  homepage "https://github.com/ptrkrysik/gr-gsm"
-  head "https://github.com/ptrkrysik/gr-gsm.git"
+  homepage "https://github.com/abbrown1/gr-gsm"
+  head "https://github.com/abbrown1/gr-gsm.git"
 
   depends_on "cmake" => :build
   depends_on "doxygen" => :build
