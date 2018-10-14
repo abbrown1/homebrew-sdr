@@ -1,12 +1,8 @@
 class GrGsm < Formula
-  desc "GNU Radio block for receiving GSM transmissions"
   homepage "https://github.com/ptrkrysik/gr-gsm"
-  url "https://github.com/ptrkrysik/gr-gsm/archive/0.41.4git.tar.gz"
-  sha256 "6eb112014f20a93dbd4a447415a9702d4caa0fa87a4836d31d4628bc4056f73e"
   head "https://github.com/ptrkrysik/gr-gsm.git"
 
   depends_on "cmake" => :build
-  depends_on "cppunit" => :build
   depends_on "doxygen" => :build
   depends_on "graphviz" => :build
   depends_on "swig" => :build
