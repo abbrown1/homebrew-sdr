@@ -8,7 +8,7 @@ class GrGsm < Formula
   depends_on "swig" => :build
   depends_on "boost"
   depends_on "gnuradio"
-  depends_on "libosmocore"
+  depends_on "abbrown1/sdr/libosmocore"
 
   def install
     mkdir "build" do
